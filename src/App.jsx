@@ -1,15 +1,13 @@
-import React from 'react'
-import Daraz from './components/Daraz'
 
+import React from 'react';
+import ProfileContainer from './ProfileContainer';
 
-
-
-function App() {
+function card() {
   return (
-    <div>
-    <Daraz/>
+    <div className="card">
+      <ProfileContainer />
     </div>
-  )
+  );
 }
 
-export default App
+export default card;
